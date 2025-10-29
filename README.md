@@ -2,11 +2,8 @@
 
 **Auteur :** Wael Etteyeb  
 **École :** ENIT (École Nationale d’Ingénieurs de Tunis)  
-**Encadrant :** Technozor – Stage PFE 2025  
-**Contact :** [wael.etteyeb@etudiant-enit.utm.tn](mailto:wael.etteyeb@etudiant-enit.utm.tn)  
-**GitHub :** [https://github.com/waeletteyeb](https://github.com/waeletteyeb)
-
----
+**Entreprise :** Technozor 
+**Contact :** [wael.etteyeb@etudiant-enit.utm.tn](mailto:wael.etteyeb@etudiant-enit.utm.tn) 
 
 ## 🎯 Objectif du projet
 
