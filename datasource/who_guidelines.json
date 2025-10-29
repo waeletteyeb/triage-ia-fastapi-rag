@@ -1,0 +1,206 @@
+[
+  {
+    "id": "e3c83455f86e",
+    "text": "TRIAGE AND TREATMENT IN THE EMERGENCY UNIT ≥12 YEARS",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 2"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "a234c719335e",
+    "text": "Does the patient have any RED signs?",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "a02f73e74bb3",
+    "text": "Does the patient have any YELLOW signs? Did the patient arrive dead?",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 3"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "0b15e0b08ecb",
+    "text": "Wheezing (no red criteria)",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "4284b2278e51",
+    "text": "Acute convulsions Severe pallor (no red criteria)",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "0ffb1e8304a1",
+    "text": "agitation (no red criteria)",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "e72179fb3409",
+    "text": "hours or peeling (no red",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "18cce89f2da5",
+    "text": "Other trauma/burns (no red",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "25e204e142a5",
+    "text": "urgent surgical intervention",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 3"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "adb464ee9015",
+    "text": "This is an EMERGENCY case This is an URGENT case This is an NON-URGENT case",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 2"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "bd5575e80f47",
+    "text": "Categorize as RED patient Categorize as YELLOW patient Categorize as GREEN patient",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "2405f90789ef",
+    "text": "Move to Resuscitation Area or RED area Move to YELLOW area Move to GREEN area or OPD",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "0872d64cab3e",
+    "text": "intercostal, abdominal) initially be up-triaged to Red for early Inhalation injury swelling after trauma.",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "baed1f6293c6",
+    "text": "3 Notify Emergency Medical Services (EMS; ambulance team) and provide details of case e.g. oxygen, IV",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 2"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "0bf1071a35f7",
+    "text": "Ongoing bleeding (no red",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "0c98be3ae27b",
+    "text": "Severe pain (no red",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  },
+  {
+    "id": "7cdb1b808539",
+    "text": "CIRCULATION Trauma Resuscitation",
+    "metadata": {
+      "symptoms": [],
+      "diagnosis": [],
+      "recommendation": [],
+      "level": "Level 1"
+    },
+    "source": "WHO.pdf",
+    "last_updated": "2025-08-28T18:28:38.918176"
+  }
+]

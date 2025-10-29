@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "2ebe0ebebd",
+    "text": "Symptoms: Burn from hot water. History: Rheumatoid arthritis. Diagnosis: gonorrhea. Assign Level 4 (Standard). Recommendation: Anticoagulants.",
+    "metadata": {
+      "condition": "gonorrhea",
+      "level": 4,
+      "recommendation": "Anticoagulants"
+    }
+  },
+  {
+    "id": "32924236dc",
+    "text": "Symptoms: Sudden severe back pain. History: Child, 5 years old. Diagnosis: bowel obstruction. Assign Level 1 (Resuscitation). Recommendation: Administer IV insulin.",
+    "metadata": {
+      "condition": "bowel obstruction",
+      "level": 1,
+      "recommendation": "Administer IV insulin"
+    }
+  },
+  {
+    "id": "1223bcbe84",
+    "text": "Symptoms: Nosebleeds and bruising. History: No relevant past history. Diagnosis: migraine. Assign Level 4 (Standard). Recommendation: Blood transfusion.",
+    "metadata": {
+      "condition": "migraine",
+      "level": 4,
+      "recommendation": "Blood transfusion"
+    }
+  },
+  {
+    "id": "05437add56",
+    "text": "Symptoms: Seizures and loss of consciousness. History: Recent travel to tropical area. Diagnosis: rabies. Assign Level 1 (Resuscitation). Recommendation: Smoking cessation.",
+    "metadata": {
+      "condition": "rabies",
+      "level": 1,
+      "recommendation": "Smoking cessation"
+    }
+  },
+  {
+    "id": "6c3419c44a",
+    "text": "Symptoms: Red eyes and sensitivity to light. History: Tuberculosis exposure. Diagnosis: kidney stones. Assign Level 3 (Urgent). Recommendation: Radiation therapy.",
+    "metadata": {
+      "condition": "kidney stones",
+      "level": 3,
+      "recommendation": "Radiation therapy"
+    }
+  },
+  {
+    "id": "b536efedeb",
+    "text": "Symptoms: Sudden weakness on one side of the body. History: History of depression. Diagnosis: drug overdose. Assign Level 4 (Standard). Recommendation: Bronchodilators.",
+    "metadata": {
+      "condition": "drug overdose",
+      "level": 4,
+      "recommendation": "Bronchodilators"
+    }
+  },
+  {
+    "id": "16e95cc193",
+    "text": "Symptoms: Laceration on hand. History: Allergy to penicillin. Diagnosis: dengue. Assign Level 1 (Resuscitation). Recommendation: Hormone replacement.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 1,
+      "recommendation": "Hormone replacement"
+    }
+  },
+  {
+    "id": "9bac1f9850",
+    "text": "Symptoms: Painful blisters on skin. History: Narcolepsy. Diagnosis: COVID-19. Assign Level 4 (Standard). Recommendation: Radiation therapy.",
+    "metadata": {
+      "condition": "COVID-19",
+      "level": 4,
+      "recommendation": "Radiation therapy"
+    }
+  },
+  {
+    "id": "1c63764f5b",
+    "text": "Symptoms: Mild abdominal pain. History: Bleeding disorder. Diagnosis: hypothyroidism. Assign Level 3 (Urgent). Recommendation: Rehabilitation program.",
+    "metadata": {
+      "condition": "hypothyroidism",
+      "level": 3,
+      "recommendation": "Rehabilitation program"
+    }
+  },
+  {
+    "id": "ffb52f53ce",
+    "text": "Symptoms: Chronic coughing and weight loss. History: Sedentary lifestyle. Diagnosis: glaucoma. Assign Level 2 (Emergency). Recommendation: Support group.",
+    "metadata": {
+      "condition": "glaucoma",
+      "level": 2,
+      "recommendation": "Support group"
+    }
+  },
+  {
+    "id": "5bed7f3a6e",
+    "text": "Symptoms: Leg cramps at night. History: Autism spectrum. Diagnosis: bipolar disorder. Assign Level 2 (Emergency). Recommendation: Colonoscopy.",
+    "metadata": {
+      "condition": "bipolar disorder",
+      "level": 2,
+      "recommendation": "Colonoscopy"
+    }
+  },
+  {
+    "id": "632d63bcbd",
+    "text": "Symptoms: Toothache with swelling. History: Bee sting allergy. Diagnosis: schizophrenia. Assign Level 5 (Non-Urgent). Recommendation: Immediate ECG and cardiac monitoring.",
+    "metadata": {
+      "condition": "schizophrenia",
+      "level": 5,
+      "recommendation": "Immediate ECG and cardiac monitoring"
+    }
+  },
+  {
+    "id": "67ca9c3825",
+    "text": "Symptoms: Broken arm. History: Work-related stress. Diagnosis: hepatitis B. Assign Level 1 (Resuscitation). Recommendation: Sedatives.",
+    "metadata": {
+      "condition": "hepatitis B",
+      "level": 1,
+      "recommendation": "Sedatives"
+    }
+  },
+  {
+    "id": "80c99548df",
+    "text": "Symptoms: COVID-19 symptoms. History: Pregnant, first trimester. Diagnosis: PTSD. Assign Level 5 (Non-Urgent). Recommendation: Sedatives.",
+    "metadata": {
+      "condition": "PTSD",
+      "level": 5,
+      "recommendation": "Sedatives"
+    }
+  },
+  {
+    "id": "208d9365c4",
+    "text": "Symptoms: Rash with high fever. History: Lactose intolerant. Diagnosis: COVID-19. Assign Level 5 (Non-Urgent). Recommendation: IV fluids and electrolyte correction.",
+    "metadata": {
+      "condition": "COVID-19",
+      "level": 5,
+      "recommendation": "IV fluids and electrolyte correction"
+    }
+  },
+  {
+    "id": "a392ccb9aa",
+    "text": "Symptoms: Insomnia and anxiety. History: Pregnant, first trimester. Diagnosis: appendicitis. Assign Level 5 (Non-Urgent). Recommendation: Anti-inflammatory drugs.",
+    "metadata": {
+      "condition": "appendicitis",
+      "level": 5,
+      "recommendation": "Anti-inflammatory drugs"
+    }
+  },
+  {
+    "id": "83067b8f43",
+    "text": "Symptoms: Severe allergic reaction. History: Huntington's disease. Diagnosis: drug overdose. Assign Level 2 (Emergency). Recommendation: Pacemaker check.",
+    "metadata": {
+      "condition": "drug overdose",
+      "level": 2,
+      "recommendation": "Pacemaker check"
+    }
+  },
+  {
+    "id": "70767ecdd9",
+    "text": "Symptoms: Muscle weakness and cramps. History: Down syndrome. Diagnosis: pyelonephritis. Assign Level 3 (Urgent). Recommendation: Antibiotics course.",
+    "metadata": {
+      "condition": "pyelonephritis",
+      "level": 3,
+      "recommendation": "Antibiotics course"
+    }
+  },
+  {
+    "id": "9105a3ae1f",
+    "text": "Symptoms: Itchy skin rash. History: Immune deficiency. Diagnosis: rheumatoid arthritis. Assign Level 3 (Urgent). Recommendation: Bronchodilators.",
+    "metadata": {
+      "condition": "rheumatoid arthritis",
+      "level": 3,
+      "recommendation": "Bronchodilators"
+    }
+  },
+  {
+    "id": "67912c8167",
+    "text": "Symptoms: Pain in the jaw when chewing. History: Refugee with trauma. Diagnosis: leukemia. Assign Level 2 (Emergency). Recommendation: MRI scan.",
+    "metadata": {
+      "condition": "leukemia",
+      "level": 2,
+      "recommendation": "MRI scan"
+    }
+  },
+  {
+    "id": "8dfcec271a",
+    "text": "Symptoms: Red eyes and sensitivity to light. History: Sickle cell anemia. Diagnosis: schizophrenia. Assign Level 3 (Urgent). Recommendation: Defibrillation.",
+    "metadata": {
+      "condition": "schizophrenia",
+      "level": 3,
+      "recommendation": "Defibrillation"
+    }
+  },
+  {
+    "id": "56f9cf5e1b",
+    "text": "Symptoms: Rabies hydrophobia. History: Hemophilia. Diagnosis: lung cancer. Assign Level 1 (Resuscitation). Recommendation: Wound dressing.",
+    "metadata": {
+      "condition": "lung cancer",
+      "level": 1,
+      "recommendation": "Wound dressing"
+    }
+  },
+  {
+    "id": "9705fe64f3",
+    "text": "Symptoms: High fever and stiff neck. History: Thyroid disorder. Diagnosis: ischemic stroke. Assign Level 4 (Standard). Recommendation: Proton pump inhibitors.",
+    "metadata": {
+      "condition": "ischemic stroke",
+      "level": 4,
+      "recommendation": "Proton pump inhibitors"
+    }
+  },
+  {
+    "id": "98fbc68dac",
+    "text": "Symptoms: Sores in mouth. History: Lactose intolerant. Diagnosis: salmonella. Assign Level 5 (Non-Urgent). Recommendation: Pain management and imaging.",
+    "metadata": {
+      "condition": "salmonella",
+      "level": 5,
+      "recommendation": "Pain management and imaging"
+    }
+  },
+  {
+    "id": "4d8809f7df",
+    "text": "Symptoms: Toothache with swelling. History: Mental health issues. Diagnosis: measles. Assign Level 2 (Emergency). Recommendation: Hospice referral.",
+    "metadata": {
+      "condition": "measles",
+      "level": 2,
+      "recommendation": "Hospice referral"
+    }
+  },
+  {
+    "id": "985ec7ba76",
+    "text": "Symptoms: Frequent urination at night. History: Homeless individual. Diagnosis: snake bite. Assign Level 3 (Urgent). Recommendation: Quarantine.",
+    "metadata": {
+      "condition": "snake bite",
+      "level": 3,
+      "recommendation": "Quarantine"
+    }
+  },
+  {
+    "id": "c219946027",
+    "text": "Symptoms: Insect sting allergy. History: Child, 5 years old. Diagnosis: dengue. Assign Level 4 (Standard). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 4,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "554e1f9c43",
+    "text": "Symptoms: Muscle weakness and cramps. History: Athletic overtraining. Diagnosis: fibromyalgia. Assign Level 1 (Resuscitation). Recommendation: Dietary changes.",
+    "metadata": {
+      "condition": "fibromyalgia",
+      "level": 1,
+      "recommendation": "Dietary changes"
+    }
+  },
+  {
+    "id": "6460208bad",
+    "text": "Symptoms: Dengue fever rash. History: Schizophrenia. Diagnosis: migraine. Assign Level 2 (Emergency). Recommendation: H2 blockers.",
+    "metadata": {
+      "condition": "migraine",
+      "level": 2,
+      "recommendation": "H2 blockers"
+    }
+  },
+  {
+    "id": "c90eb9d179",
+    "text": "Symptoms: Poison ivy rash. History: Chronic kidney disease. Diagnosis: E. coli infection. Assign Level 3 (Urgent). Recommendation: Pain management and imaging.",
+    "metadata": {
+      "condition": "E. coli infection",
+      "level": 3,
+      "recommendation": "Pain management and imaging"
+    }
+  },
+  {
+    "id": "1ff5c220eb",
+    "text": "Symptoms: Loss of appetite and abdominal distension. History: Vegetarian diet. Diagnosis: autism. Assign Level 4 (Standard). Recommendation: Follow-up appointment.",
+    "metadata": {
+      "condition": "autism",
+      "level": 4,
+      "recommendation": "Follow-up appointment"
+    }
+  },
+  {
+    "id": "5be0e20cc5",
+    "text": "Symptoms: Sore muscles after exercise. History: Refugee with trauma. Diagnosis: acute myocardial infarction. Assign Level 2 (Emergency). Recommendation: Nutritional support.",
+    "metadata": {
+      "condition": "acute myocardial infarction",
+      "level": 2,
+      "recommendation": "Nutritional support"
+    }
+  },
+  {
+    "id": "87633c1e7e",
+    "text": "Symptoms: Measles rash and fever. History: Rheumatoid arthritis. Diagnosis: herpes. Assign Level 3 (Urgent). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "herpes",
+      "level": 3,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "a9d5db0294",
+    "text": "Symptoms: Severe headache with nausea. History: Bipolar disorder. Diagnosis: electrocution. Assign Level 5 (Non-Urgent). Recommendation: Stimulants.",
+    "metadata": {
+      "condition": "electrocution",
+      "level": 5,
+      "recommendation": "Stimulants"
+    }
+  },
+  {
+    "id": "a389bc254e",
+    "text": "Symptoms: Itchy skin rash. History: Pregnant, 28 weeks. Diagnosis: ischemic stroke. Assign Level 3 (Urgent). Recommendation: Amputation.",
+    "metadata": {
+      "condition": "ischemic stroke",
+      "level": 3,
+      "recommendation": "Amputation"
+    }
+  },
+  {
+    "id": "e824445c1a",
+    "text": "Symptoms: Sprained ankle. History: Schizophrenia. Diagnosis: malaria. Assign Level 2 (Emergency). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "malaria",
+      "level": 2,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "18c2932c3e",
+    "text": "Symptoms: Flu-like symptoms. History: Child, 5 years old. Diagnosis: shingles. Assign Level 2 (Emergency). Recommendation: Antiviral medication.",
+    "metadata": {
+      "condition": "shingles",
+      "level": 2,
+      "recommendation": "Antiviral medication"
+    }
+  },
+  {
+    "id": "12a82c59b8",
+    "text": "Symptoms: Ear pain with discharge. History: Post-surgical complication. Diagnosis: torn muscle. Assign Level 4 (Standard). Recommendation: Dietary changes.",
+    "metadata": {
+      "condition": "torn muscle",
+      "level": 4,
+      "recommendation": "Dietary changes"
+    }
+  },
+  {
+    "id": "18f52714ba",
+    "text": "Symptoms: Severe chest pain radiating to the left arm. History: Burn survivor. Diagnosis: urinary tract infection. Assign Level 1 (Resuscitation). Recommendation: Insulin pump.",
+    "metadata": {
+      "condition": "urinary tract infection",
+      "level": 1,
+      "recommendation": "Insulin pump"
+    }
+  },
+  {
+    "id": "f49b166049",
+    "text": "Symptoms: Measles rash and fever. History: Athletic overtraining. Diagnosis: whooping cough. Assign Level 3 (Urgent). Recommendation: CT scan and neurologist consult.",
+    "metadata": {
+      "condition": "whooping cough",
+      "level": 3,
+      "recommendation": "CT scan and neurologist consult"
+    }
+  },
+  {
+    "id": "f33d235e45",
+    "text": "Symptoms: Palpitations and fainting. History: Recent travel to tropical area. Diagnosis: Alzheimer's. Assign Level 2 (Emergency). Recommendation: Hospice referral.",
+    "metadata": {
+      "condition": "Alzheimer's",
+      "level": 2,
+      "recommendation": "Hospice referral"
+    }
+  },
+  {
+    "id": "95a7735013",
+    "text": "Symptoms: Nosebleeds and bruising. History: Rheumatoid arthritis. Diagnosis: fractured femur. Assign Level 3 (Urgent). Recommendation: Alcohol detox.",
+    "metadata": {
+      "condition": "fractured femur",
+      "level": 3,
+      "recommendation": "Alcohol detox"
+    }
+  },
+  {
+    "id": "c93a1a9f7e",
+    "text": "Symptoms: Burn from hot water. History: Cerebral palsy. Diagnosis: cholecystitis. Assign Level 1 (Resuscitation). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "cholecystitis",
+      "level": 1,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "3eead4977e",
+    "text": "Symptoms: Shingles pain. History: Autism spectrum. Diagnosis: ebola. Assign Level 5 (Non-Urgent). Recommendation: Organ transplant.",
+    "metadata": {
+      "condition": "ebola",
+      "level": 5,
+      "recommendation": "Organ transplant"
+    }
+  },
+  {
+    "id": "cc88de104e",
+    "text": "Symptoms: Numbness in limbs. History: Immunocompromised due to chemotherapy. Diagnosis: cholecystitis. Assign Level 1 (Resuscitation). Recommendation: Statins.",
+    "metadata": {
+      "condition": "cholecystitis",
+      "level": 1,
+      "recommendation": "Statins"
+    }
+  },
+  {
+    "id": "297ab3d053",
+    "text": "Symptoms: Dehydration in hot weather. History: Homeless individual. Diagnosis: drowning. Assign Level 5 (Non-Urgent). Recommendation: Lumbar puncture.",
+    "metadata": {
+      "condition": "drowning",
+      "level": 5,
+      "recommendation": "Lumbar puncture"
+    }
+  },
+  {
+    "id": "6345da8151",
+    "text": "Symptoms: Stomach ulcer pain. History: No relevant past history. Diagnosis: fibromyalgia. Assign Level 1 (Resuscitation). Recommendation: Apply splint and schedule orthopedic consult.",
+    "metadata": {
+      "condition": "fibromyalgia",
+      "level": 1,
+      "recommendation": "Apply splint and schedule orthopedic consult"
+    }
+  },
+  {
+    "id": "a344f5d402",
+    "text": "Symptoms: Rabies hydrophobia. History: Dialysis patient. Diagnosis: common cold. Assign Level 2 (Emergency). Recommendation: Emergency surgery.",
+    "metadata": {
+      "condition": "common cold",
+      "level": 2,
+      "recommendation": "Emergency surgery"
+    }
+  },
+  {
+    "id": "2bdb4abc58",
+    "text": "Symptoms: Blue lips and difficulty breathing. History: Gluten sensitivity. Diagnosis: fibromyalgia. Assign Level 3 (Urgent). Recommendation: Lifestyle counseling.",
+    "metadata": {
+      "condition": "fibromyalgia",
+      "level": 3,
+      "recommendation": "Lifestyle counseling"
+    }
+  },
+  {
+    "id": "33d1cc2045",
+    "text": "Symptoms: Chronic coughing and weight loss. History: COPD patient. Diagnosis: herpes. Assign Level 4 (Standard). Recommendation: Dietary changes.",
+    "metadata": {
+      "condition": "herpes",
+      "level": 4,
+      "recommendation": "Dietary changes"
+    }
+  },
+  {
+    "id": "928a8ced6a",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: Recent abdominal surgery. Diagnosis: fractured femur. Assign Level 5 (Non-Urgent). Recommendation: Feeding tube.",
+    "metadata": {
+      "condition": "fractured femur",
+      "level": 5,
+      "recommendation": "Feeding tube"
+    }
+  },
+  {
+    "id": "66d76cff35",
+    "text": "Symptoms: Severe chest pain radiating to the left arm. History: Family history of heart disease. Diagnosis: lyme disease. Assign Level 3 (Urgent). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "lyme disease",
+      "level": 3,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "ba78d9d390",
+    "text": "Symptoms: Difficulty breathing at night. History: Eating disorder. Diagnosis: hyperthyroidism. Assign Level 1 (Resuscitation). Recommendation: Nebulizer treatment.",
+    "metadata": {
+      "condition": "hyperthyroidism",
+      "level": 1,
+      "recommendation": "Nebulizer treatment"
+    }
+  },
+  {
+    "id": "3030d2b153",
+    "text": "Symptoms: Loss of balance. History: Thyroid disorder. Diagnosis: salmonella. Assign Level 3 (Urgent). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "salmonella",
+      "level": 3,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "1b6f49e344",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: Autism spectrum. Diagnosis: diabetic ketoacidosis. Assign Level 1 (Resuscitation). Recommendation: Beta blockers.",
+    "metadata": {
+      "condition": "diabetic ketoacidosis",
+      "level": 1,
+      "recommendation": "Beta blockers"
+    }
+  },
+  {
+    "id": "31190b42e2",
+    "text": "Symptoms: Dengue fever rash. History: Hemophilia. Diagnosis: zika. Assign Level 4 (Standard). Recommendation: Lumbar puncture.",
+    "metadata": {
+      "condition": "zika",
+      "level": 4,
+      "recommendation": "Lumbar puncture"
+    }
+  },
+  {
+    "id": "f52dd904bd",
+    "text": "Symptoms: Snake bite with swelling. History: Sedentary lifestyle. Diagnosis: lung cancer. Assign Level 1 (Resuscitation). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "lung cancer",
+      "level": 1,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "061efd7f3a",
+    "text": "Symptoms: Seizures and loss of consciousness. History: Drug abuse history. Diagnosis: measles. Assign Level 4 (Standard). Recommendation: Cooling measures and IV hydration.",
+    "metadata": {
+      "condition": "measles",
+      "level": 4,
+      "recommendation": "Cooling measures and IV hydration"
+    }
+  },
+  {
+    "id": "fb9b977e46",
+    "text": "Symptoms: Hair loss and fatigue. History: Dialysis patient. Diagnosis: diabetes insipidus. Assign Level 3 (Urgent). Recommendation: Amputation.",
+    "metadata": {
+      "condition": "diabetes insipidus",
+      "level": 3,
+      "recommendation": "Amputation"
+    }
+  },
+  {
+    "id": "cf3a83a946",
+    "text": "Symptoms: Chills and sweating. History: Recent travel to tropical area. Diagnosis: frostbite. Assign Level 4 (Standard). Recommendation: Medication adjustment.",
+    "metadata": {
+      "condition": "frostbite",
+      "level": 4,
+      "recommendation": "Medication adjustment"
+    }
+  },
+  {
+    "id": "2ac5c259e8",
+    "text": "Symptoms: Seizures and loss of consciousness. History: Hearing impaired. Diagnosis: glaucoma. Assign Level 5 (Non-Urgent). Recommendation: Quarantine.",
+    "metadata": {
+      "condition": "glaucoma",
+      "level": 5,
+      "recommendation": "Quarantine"
+    }
+  },
+  {
+    "id": "578cdd6779",
+    "text": "Symptoms: Pneumonia cough. History: Athlete with recent injury. Diagnosis: gastritis. Assign Level 3 (Urgent). Recommendation: H2 blockers.",
+    "metadata": {
+      "condition": "gastritis",
+      "level": 3,
+      "recommendation": "H2 blockers"
+    }
+  },
+  {
+    "id": "aade0d34ef",
+    "text": "Symptoms: Vomiting blood. History: Elderly, 75 years old. Diagnosis: concussion. Assign Level 1 (Resuscitation). Recommendation: Anticoagulants.",
+    "metadata": {
+      "condition": "concussion",
+      "level": 1,
+      "recommendation": "Anticoagulants"
+    }
+  },
+  {
+    "id": "45a551e118",
+    "text": "Symptoms: Lyme disease bullseye rash. History: Newborn infant. Diagnosis: whooping cough. Assign Level 4 (Standard). Recommendation: Pacemaker check.",
+    "metadata": {
+      "condition": "whooping cough",
+      "level": 4,
+      "recommendation": "Pacemaker check"
+    }
+  },
+  {
+    "id": "0c0262914d",
+    "text": "Symptoms: Nosebleeds and bruising. History: Recent COVID-19 infection. Diagnosis: prostate cancer. Assign Level 4 (Standard). Recommendation: Drug rehabilitation.",
+    "metadata": {
+      "condition": "prostate cancer",
+      "level": 4,
+      "recommendation": "Drug rehabilitation"
+    }
+  },
+  {
+    "id": "7fa255cdf6",
+    "text": "Symptoms: Whooping cough. History: Smoker, 20 pack years. Diagnosis: psoriasis. Assign Level 2 (Emergency). Recommendation: CPR.",
+    "metadata": {
+      "condition": "psoriasis",
+      "level": 2,
+      "recommendation": "CPR"
+    }
+  },
+  {
+    "id": "9f042b95c5",
+    "text": "Symptoms: Malaria fever cycles. History: Alcohol dependency. Diagnosis: rubella. Assign Level 5 (Non-Urgent). Recommendation: Support group.",
+    "metadata": {
+      "condition": "rubella",
+      "level": 5,
+      "recommendation": "Support group"
+    }
+  },
+  {
+    "id": "53b26c7c3f",
+    "text": "Symptoms: Severe burns covering face and chest. History: Family history of cancer. Diagnosis: spider bite. Assign Level 2 (Emergency). Recommendation: Oxygen therapy and emergency intubation.",
+    "metadata": {
+      "condition": "spider bite",
+      "level": 2,
+      "recommendation": "Oxygen therapy and emergency intubation"
+    }
+  },
+  {
+    "id": "5afcf86022",
+    "text": "Symptoms: Flu-like symptoms. History: COPD patient. Diagnosis: diabetes insipidus. Assign Level 5 (Non-Urgent). Recommendation: Antidepressants.",
+    "metadata": {
+      "condition": "diabetes insipidus",
+      "level": 5,
+      "recommendation": "Antidepressants"
+    }
+  },
+  {
+    "id": "2be753f03a",
+    "text": "Symptoms: Extreme fatigue and pale skin. History: Family history of cancer. Diagnosis: Alzheimer's. Assign Level 3 (Urgent). Recommendation: Feeding tube.",
+    "metadata": {
+      "condition": "Alzheimer's",
+      "level": 3,
+      "recommendation": "Feeding tube"
+    }
+  },
+  {
+    "id": "93de22a471",
+    "text": "Symptoms: Insect sting allergy. History: Allergic to nuts. Diagnosis: electrocution. Assign Level 3 (Urgent). Recommendation: Statins.",
+    "metadata": {
+      "condition": "electrocution",
+      "level": 3,
+      "recommendation": "Statins"
+    }
+  },
+  {
+    "id": "5c122bc61f",
+    "text": "Symptoms: Zika virus joint pain. History: Family history of heart disease. Diagnosis: fractured femur. Assign Level 1 (Resuscitation). Recommendation: Blood transfusion.",
+    "metadata": {
+      "condition": "fractured femur",
+      "level": 1,
+      "recommendation": "Blood transfusion"
+    }
+  },
+  {
+    "id": "bb1303c2cb",
+    "text": "Symptoms: Eye pain with sudden vision loss. History: Sedentary lifestyle. Diagnosis: lung cancer. Assign Level 1 (Resuscitation). Recommendation: Inhalers.",
+    "metadata": {
+      "condition": "lung cancer",
+      "level": 1,
+      "recommendation": "Inhalers"
+    }
+  },
+  {
+    "id": "ec7d1aa387",
+    "text": "Symptoms: Broken arm. History: Work-related stress. Diagnosis: snake bite. Assign Level 3 (Urgent). Recommendation: Antiviral medication.",
+    "metadata": {
+      "condition": "snake bite",
+      "level": 3,
+      "recommendation": "Antiviral medication"
+    }
+  },
+  {
+    "id": "ee2aba64c0",
+    "text": "Symptoms: Severe dehydration with sunken eyes. History: Recent abdominal surgery. Diagnosis: pneumonia. Assign Level 2 (Emergency). Recommendation: Organ transplant.",
+    "metadata": {
+      "condition": "pneumonia",
+      "level": 2,
+      "recommendation": "Organ transplant"
+    }
+  },
+  {
+    "id": "6fde3eb3c7",
+    "text": "Symptoms: Laceration on hand. History: Allergic to nuts. Diagnosis: bowel obstruction. Assign Level 4 (Standard). Recommendation: Colonoscopy.",
+    "metadata": {
+      "condition": "bowel obstruction",
+      "level": 4,
+      "recommendation": "Colonoscopy"
+    }
+  },
+  {
+    "id": "ef45936457",
+    "text": "Symptoms: Severe allergic reaction. History: History of diabetes. Diagnosis: hepatitis B. Assign Level 5 (Non-Urgent). Recommendation: IV nutrition.",
+    "metadata": {
+      "condition": "hepatitis B",
+      "level": 5,
+      "recommendation": "IV nutrition"
+    }
+  },
+  {
+    "id": "3c92274296",
+    "text": "Symptoms: Mild abdominal pain. History: Family history of cancer. Diagnosis: tetanus. Assign Level 5 (Non-Urgent). Recommendation: Beta blockers.",
+    "metadata": {
+      "condition": "tetanus",
+      "level": 5,
+      "recommendation": "Beta blockers"
+    }
+  },
+  {
+    "id": "f40d99de59",
+    "text": "Symptoms: Seizures and loss of consciousness. History: Cystic fibrosis. Diagnosis: acne. Assign Level 1 (Resuscitation). Recommendation: Over-the-counter antacids and follow-up.",
+    "metadata": {
+      "condition": "acne",
+      "level": 1,
+      "recommendation": "Over-the-counter antacids and follow-up"
+    }
+  },
+  {
+    "id": "668bead5fb",
+    "text": "Symptoms: Sudden severe back pain. History: Dehydrated from travel. Diagnosis: influenza. Assign Level 5 (Non-Urgent). Recommendation: Inhalers.",
+    "metadata": {
+      "condition": "influenza",
+      "level": 5,
+      "recommendation": "Inhalers"
+    }
+  },
+  {
+    "id": "6f1f1e8ea8",
+    "text": "Symptoms: Blurred vision and headache. History: Post-menopausal. Diagnosis: cholecystitis. Assign Level 3 (Urgent). Recommendation: Antibiotics course.",
+    "metadata": {
+      "condition": "cholecystitis",
+      "level": 3,
+      "recommendation": "Antibiotics course"
+    }
+  },
+  {
+    "id": "a82c3b7b74",
+    "text": "Symptoms: Dry mouth and excessive thirst. History: Liver cirrhosis. Diagnosis: schizophrenia. Assign Level 2 (Emergency). Recommendation: Immunosuppressants.",
+    "metadata": {
+      "condition": "schizophrenia",
+      "level": 2,
+      "recommendation": "Immunosuppressants"
+    }
+  },
+  {
+    "id": "4b17ae8c63",
+    "text": "Symptoms: Shortness of breath with wheezing. History: Malnourished. Diagnosis: insect sting. Assign Level 5 (Non-Urgent). Recommendation: Immunosuppressants.",
+    "metadata": {
+      "condition": "insect sting",
+      "level": 5,
+      "recommendation": "Immunosuppressants"
+    }
+  },
+  {
+    "id": "406059a79f",
+    "text": "Symptoms: Difficulty breathing at night. History: Alcohol dependency. Diagnosis: dengue. Assign Level 4 (Standard). Recommendation: Vaccination.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 4,
+      "recommendation": "Vaccination"
+    }
+  },
+  {
+    "id": "03fae7324c",
+    "text": "Symptoms: Blood in urine. History: Alzheimer's disease. Diagnosis: lung cancer. Assign Level 4 (Standard). Recommendation: Inhalers.",
+    "metadata": {
+      "condition": "lung cancer",
+      "level": 4,
+      "recommendation": "Inhalers"
+    }
+  },
+  {
+    "id": "f05caeda03",
+    "text": "Symptoms: Mild abdominal pain. History: Post-transplant. Diagnosis: Alzheimer's. Assign Level 4 (Standard). Recommendation: Oxygen therapy and emergency intubation.",
+    "metadata": {
+      "condition": "Alzheimer's",
+      "level": 4,
+      "recommendation": "Oxygen therapy and emergency intubation"
+    }
+  },
+  {
+    "id": "7386a88406",
+    "text": "Symptoms: Frostbite on fingers. History: Vegetarian diet. Diagnosis: ADHD. Assign Level 5 (Non-Urgent). Recommendation: Symptomatic treatment and rest.",
+    "metadata": {
+      "condition": "ADHD",
+      "level": 5,
+      "recommendation": "Symptomatic treatment and rest"
+    }
+  },
+  {
+    "id": "700a96e5bc",
+    "text": "Symptoms: Severe headache with nausea. History: Pregnant, 28 weeks. Diagnosis: fractured rib. Assign Level 2 (Emergency). Recommendation: Bronchodilators.",
+    "metadata": {
+      "condition": "fractured rib",
+      "level": 2,
+      "recommendation": "Bronchodilators"
+    }
+  },
+  {
+    "id": "3fd03164d3",
+    "text": "Symptoms: Sinus pressure and pain. History: Athlete with recent injury. Diagnosis: dislocated joint. Assign Level 4 (Standard). Recommendation: Hospice referral.",
+    "metadata": {
+      "condition": "dislocated joint",
+      "level": 4,
+      "recommendation": "Hospice referral"
+    }
+  },
+  {
+    "id": "4c8e2ea808",
+    "text": "Symptoms: Insomnia and anxiety. History: Recent abdominal surgery. Diagnosis: botulism. Assign Level 2 (Emergency). Recommendation: Antidepressants.",
+    "metadata": {
+      "condition": "botulism",
+      "level": 2,
+      "recommendation": "Antidepressants"
+    }
+  },
+  {
+    "id": "0a2740d763",
+    "text": "Symptoms: Poison ivy rash. History: Gluten sensitivity. Diagnosis: acute myocardial infarction. Assign Level 1 (Resuscitation). Recommendation: Defibrillation.",
+    "metadata": {
+      "condition": "acute myocardial infarction",
+      "level": 1,
+      "recommendation": "Defibrillation"
+    }
+  },
+  {
+    "id": "13ed65fdbe",
+    "text": "Symptoms: Broken arm. History: Bleeding disorder. Diagnosis: zika. Assign Level 5 (Non-Urgent). Recommendation: Cooling measures and IV hydration.",
+    "metadata": {
+      "condition": "zika",
+      "level": 5,
+      "recommendation": "Cooling measures and IV hydration"
+    }
+  },
+  {
+    "id": "0075bd87ba",
+    "text": "Symptoms: Sprained ankle. History: COPD patient. Diagnosis: anemia. Assign Level 5 (Non-Urgent). Recommendation: Alcohol detox.",
+    "metadata": {
+      "condition": "anemia",
+      "level": 5,
+      "recommendation": "Alcohol detox"
+    }
+  },
+  {
+    "id": "0b97c4f553",
+    "text": "Symptoms: Tuberculosis night sweats. History: Recent abdominal surgery. Diagnosis: botulism. Assign Level 3 (Urgent). Recommendation: Exercise regimen.",
+    "metadata": {
+      "condition": "botulism",
+      "level": 3,
+      "recommendation": "Exercise regimen"
+    }
+  },
+  {
+    "id": "fdec2e73c7",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: Eating disorder. Diagnosis: eczema. Assign Level 1 (Resuscitation). Recommendation: Follow-up appointment.",
+    "metadata": {
+      "condition": "eczema",
+      "level": 1,
+      "recommendation": "Follow-up appointment"
+    }
+  },
+  {
+    "id": "1cbe3bda75",
+    "text": "Symptoms: Cluster headache. History: Amputee. Diagnosis: dengue. Assign Level 2 (Emergency). Recommendation: Pain management and imaging.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 2,
+      "recommendation": "Pain management and imaging"
+    }
+  },
+  {
+    "id": "b431205a0e",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: History of abuse. Diagnosis: torn muscle. Assign Level 5 (Non-Urgent). Recommendation: Psychiatric evaluation and monitoring.",
+    "metadata": {
+      "condition": "torn muscle",
+      "level": 5,
+      "recommendation": "Psychiatric evaluation and monitoring"
+    }
+  },
+  {
+    "id": "ee40fa5c05",
+    "text": "Symptoms: Chest pain with coughing. History: Autism spectrum. Diagnosis: kidney stones. Assign Level 5 (Non-Urgent). Recommendation: Bronchodilators.",
+    "metadata": {
+      "condition": "kidney stones",
+      "level": 5,
+      "recommendation": "Bronchodilators"
+    }
+  },
+  {
+    "id": "e76fc5b6b6",
+    "text": "Symptoms: Zika virus joint pain. History: Anemia. Diagnosis: influenza. Assign Level 1 (Resuscitation). Recommendation: Rehabilitation program.",
+    "metadata": {
+      "condition": "influenza",
+      "level": 1,
+      "recommendation": "Rehabilitation program"
+    }
+  },
+  {
+    "id": "055f453e65",
+    "text": "Symptoms: Vomiting blood. History: Anemia. Diagnosis: dengue. Assign Level 5 (Non-Urgent). Recommendation: Dialysis.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 5,
+      "recommendation": "Dialysis"
+    }
+  },
+  {
+    "id": "7eba312cd8",
+    "text": "Symptoms: Mild abdominal pain. History: Bipolar disorder. Diagnosis: COVID-19. Assign Level 3 (Urgent). Recommendation: Transfer to intensive care unit.",
+    "metadata": {
+      "condition": "COVID-19",
+      "level": 3,
+      "recommendation": "Transfer to intensive care unit"
+    }
+  },
+  {
+    "id": "fc49c128bf",
+    "text": "Symptoms: Rash with high fever. History: Anxiety disorder. Diagnosis: cluster headache. Assign Level 4 (Standard). Recommendation: Pacemaker check.",
+    "metadata": {
+      "condition": "cluster headache",
+      "level": 4,
+      "recommendation": "Pacemaker check"
+    }
+  },
+  {
+    "id": "cce217b3cf",
+    "text": "Symptoms: Memory loss and confusion. History: History of heart disease. Diagnosis: cluster headache. Assign Level 1 (Resuscitation). Recommendation: Lifestyle counseling.",
+    "metadata": {
+      "condition": "cluster headache",
+      "level": 1,
+      "recommendation": "Lifestyle counseling"
+    }
+  },
+  {
+    "id": "42592bdda6",
+    "text": "Symptoms: Sores in mouth. History: Multiple sclerosis. Diagnosis: gastritis. Assign Level 3 (Urgent). Recommendation: Nebulizer treatment.",
+    "metadata": {
+      "condition": "gastritis",
+      "level": 3,
+      "recommendation": "Nebulizer treatment"
+    }
+  },
+  {
+    "id": "fe86807385",
+    "text": "Symptoms: Whooping cough. History: Victim of assault. Diagnosis: anaphylaxis. Assign Level 1 (Resuscitation). Recommendation: Intubation and ventilation.",
+    "metadata": {
+      "condition": "anaphylaxis",
+      "level": 1,
+      "recommendation": "Intubation and ventilation"
+    }
+  },
+  {
+    "id": "3744a8215b",
+    "text": "Symptoms: Poison ivy rash. History: Recent vaccination. Diagnosis: food poisoning. Assign Level 3 (Urgent). Recommendation: Surgery.",
+    "metadata": {
+      "condition": "food poisoning",
+      "level": 3,
+      "recommendation": "Surgery"
+    }
+  },
+  {
+    "id": "c02d6a6078",
+    "text": "Symptoms: Numbness in limbs. History: Family history of cancer. Diagnosis: eczema. Assign Level 3 (Urgent). Recommendation: Speech therapy.",
+    "metadata": {
+      "condition": "eczema",
+      "level": 3,
+      "recommendation": "Speech therapy"
+    }
+  },
+  {
+    "id": "550b1c38b4",
+    "text": "Symptoms: Insomnia and anxiety. History: Amputee. Diagnosis: mumps. Assign Level 3 (Urgent). Recommendation: Laxatives.",
+    "metadata": {
+      "condition": "mumps",
+      "level": 3,
+      "recommendation": "Laxatives"
+    }
+  },
+  {
+    "id": "5256f0b1b2",
+    "text": "Symptoms: Joint pain and swelling. History: Eating disorder. Diagnosis: dengue. Assign Level 5 (Non-Urgent). Recommendation: Decongestants.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 5,
+      "recommendation": "Decongestants"
+    }
+  },
+  {
+    "id": "e32ce34f4c",
+    "text": "Symptoms: Yellowing of skin and eyes. History: Alzheimer's disease. Diagnosis: autism. Assign Level 3 (Urgent). Recommendation: Cough suppressants.",
+    "metadata": {
+      "condition": "autism",
+      "level": 3,
+      "recommendation": "Cough suppressants"
+    }
+  },
+  {
+    "id": "85a3d18576",
+    "text": "Symptoms: Tetanus muscle spasms. History: Work-related stress. Diagnosis: pneumonia. Assign Level 5 (Non-Urgent). Recommendation: Anticonvulsants.",
+    "metadata": {
+      "condition": "pneumonia",
+      "level": 5,
+      "recommendation": "Anticonvulsants"
+    }
+  },
+  {
+    "id": "74e895c4e3",
+    "text": "Symptoms: Swollen legs and shortness of breath. History: Insulin dependent. Diagnosis: burn injury. Assign Level 3 (Urgent). Recommendation: Antipsychotics.",
+    "metadata": {
+      "condition": "burn injury",
+      "level": 3,
+      "recommendation": "Antipsychotics"
+    }
+  },
+  {
+    "id": "6a244a7b74",
+    "text": "Symptoms: Severe dehydration with sunken eyes. History: History of depression. Diagnosis: allergies. Assign Level 4 (Standard). Recommendation: H2 blockers.",
+    "metadata": {
+      "condition": "allergies",
+      "level": 4,
+      "recommendation": "H2 blockers"
+    }
+  },
+  {
+    "id": "1882e0a7b7",
+    "text": "Symptoms: Dry mouth and excessive thirst. History: Family history of heart disease. Diagnosis: E. coli infection. Assign Level 1 (Resuscitation). Recommendation: Physical therapy.",
+    "metadata": {
+      "condition": "E. coli infection",
+      "level": 1,
+      "recommendation": "Physical therapy"
+    }
+  },
+  {
+    "id": "7e2850acdb",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: Pregnant, first trimester. Diagnosis: tetanus. Assign Level 1 (Resuscitation). Recommendation: Consult ophthalmology immediately.",
+    "metadata": {
+      "condition": "tetanus",
+      "level": 1,
+      "recommendation": "Consult ophthalmology immediately"
+    }
+  },
+  {
+    "id": "d62b3337ff",
+    "text": "Symptoms: Mild sore throat and runny nose. History: Newborn infant. Diagnosis: lyme disease. Assign Level 4 (Standard). Recommendation: Immunosuppressants.",
+    "metadata": {
+      "condition": "lyme disease",
+      "level": 4,
+      "recommendation": "Immunosuppressants"
+    }
+  },
+  {
+    "id": "a18bf80e07",
+    "text": "Symptoms: Joint pain and swelling. History: Malnourished. Diagnosis: frostbite. Assign Level 5 (Non-Urgent). Recommendation: Hormone replacement.",
+    "metadata": {
+      "condition": "frostbite",
+      "level": 5,
+      "recommendation": "Hormone replacement"
+    }
+  },
+  {
+    "id": "2beab63ba4",
+    "text": "Symptoms: Nosebleeds and bruising. History: Thyroid disorder. Diagnosis: prostate cancer. Assign Level 3 (Urgent). Recommendation: Administer IV insulin.",
+    "metadata": {
+      "condition": "prostate cancer",
+      "level": 3,
+      "recommendation": "Administer IV insulin"
+    }
+  },
+  {
+    "id": "4e4a9eb503",
+    "text": "Symptoms: Snake bite with swelling. History: Epilepsy. Diagnosis: hepatitis. Assign Level 4 (Standard). Recommendation: Palliative care.",
+    "metadata": {
+      "condition": "hepatitis",
+      "level": 4,
+      "recommendation": "Palliative care"
+    }
+  },
+  {
+    "id": "8ef9830ecd",
+    "text": "Symptoms: Whooping cough. History: Cystic fibrosis. Diagnosis: HIV/AIDS. Assign Level 4 (Standard). Recommendation: Hospice referral.",
+    "metadata": {
+      "condition": "HIV/AIDS",
+      "level": 4,
+      "recommendation": "Hospice referral"
+    }
+  },
+  {
+    "id": "3d98d53024",
+    "text": "Symptoms: Numbness in limbs. History: Sedentary lifestyle. Diagnosis: osteoarthritis. Assign Level 4 (Standard). Recommendation: Intubation and ventilation.",
+    "metadata": {
+      "condition": "osteoarthritis",
+      "level": 4,
+      "recommendation": "Intubation and ventilation"
+    }
+  },
+  {
+    "id": "b367002966",
+    "text": "Symptoms: Sores in mouth. History: Smoker, 20 pack years. Diagnosis: shingles. Assign Level 2 (Emergency). Recommendation: Lifestyle counseling.",
+    "metadata": {
+      "condition": "shingles",
+      "level": 2,
+      "recommendation": "Lifestyle counseling"
+    }
+  },
+  {
+    "id": "1440cfe557",
+    "text": "Symptoms: Memory loss and confusion. History: ALS. Diagnosis: multiple sclerosis. Assign Level 3 (Urgent). Recommendation: Organ transplant.",
+    "metadata": {
+      "condition": "multiple sclerosis",
+      "level": 3,
+      "recommendation": "Organ transplant"
+    }
+  },
+  {
+    "id": "b9aef2ca05",
+    "text": "Symptoms: Vomiting blood. History: Gluten sensitivity. Diagnosis: rabies. Assign Level 5 (Non-Urgent). Recommendation: Blood transfusion.",
+    "metadata": {
+      "condition": "rabies",
+      "level": 5,
+      "recommendation": "Blood transfusion"
+    }
+  },
+  {
+    "id": "6eb28b4f70",
+    "text": "Symptoms: Wheezing and chest tightness. History: Family history of heart disease. Diagnosis: cirrhosis. Assign Level 3 (Urgent). Recommendation: Feeding tube.",
+    "metadata": {
+      "condition": "cirrhosis",
+      "level": 3,
+      "recommendation": "Feeding tube"
+    }
+  },
+  {
+    "id": "cce7801577",
+    "text": "Symptoms: Frequent urination at night. History: High cholesterol. Diagnosis: chickenpox. Assign Level 4 (Standard). Recommendation: Inhalers.",
+    "metadata": {
+      "condition": "chickenpox",
+      "level": 4,
+      "recommendation": "Inhalers"
+    }
+  },
+  {
+    "id": "b4ea10ab38",
+    "text": "Symptoms: Ebola hemorrhagic fever. History: Thyroid disorder. Diagnosis: PTSD. Assign Level 2 (Emergency). Recommendation: IV nutrition.",
+    "metadata": {
+      "condition": "PTSD",
+      "level": 2,
+      "recommendation": "IV nutrition"
+    }
+  },
+  {
+    "id": "a51e5fdff4",
+    "text": "Symptoms: Sore muscles after exercise. History: Sedentary lifestyle. Diagnosis: fractured rib. Assign Level 1 (Resuscitation). Recommendation: Apply splint and schedule orthopedic consult.",
+    "metadata": {
+      "condition": "fractured rib",
+      "level": 1,
+      "recommendation": "Apply splint and schedule orthopedic consult"
+    }
+  },
+  {
+    "id": "3ce50193e1",
+    "text": "Symptoms: Blue lips and difficulty breathing. History: No relevant past history. Diagnosis: burn injury. Assign Level 4 (Standard). Recommendation: Follow-up appointment.",
+    "metadata": {
+      "condition": "burn injury",
+      "level": 4,
+      "recommendation": "Follow-up appointment"
+    }
+  },
+  {
+    "id": "c384df8d6f",
+    "text": "Symptoms: Dizziness and blurred vision. History: Sedentary lifestyle. Diagnosis: breast cancer. Assign Level 3 (Urgent). Recommendation: Drug rehabilitation.",
+    "metadata": {
+      "condition": "breast cancer",
+      "level": 3,
+      "recommendation": "Drug rehabilitation"
+    }
+  },
+  {
+    "id": "403951e4ed",
+    "text": "Symptoms: Severe chest pain radiating to the left arm. History: History of cancer. Diagnosis: frostbite. Assign Level 1 (Resuscitation). Recommendation: Statins.",
+    "metadata": {
+      "condition": "frostbite",
+      "level": 1,
+      "recommendation": "Statins"
+    }
+  },
+  {
+    "id": "80013ba755",
+    "text": "Symptoms: Pneumonia cough. History: Asthma since childhood. Diagnosis: hypothyroidism. Assign Level 1 (Resuscitation). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "hypothyroidism",
+      "level": 1,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "2eb7aa2c30",
+    "text": "Symptoms: Laceration on hand. History: Obese, BMI over 30. Diagnosis: E. coli infection. Assign Level 2 (Emergency). Recommendation: Proton pump inhibitors.",
+    "metadata": {
+      "condition": "E. coli infection",
+      "level": 2,
+      "recommendation": "Proton pump inhibitors"
+    }
+  },
+  {
+    "id": "2a9683f53f",
+    "text": "Symptoms: Swelling in the face. History: Tuberculosis exposure. Diagnosis: snake bite. Assign Level 1 (Resuscitation). Recommendation: Emergency surgery.",
+    "metadata": {
+      "condition": "snake bite",
+      "level": 1,
+      "recommendation": "Emergency surgery"
+    }
+  },
+  {
+    "id": "4bb5f6883f",
+    "text": "Symptoms: Chills and sweating. History: Hemophilia. Diagnosis: Addison's disease. Assign Level 3 (Urgent). Recommendation: Antiviral medication.",
+    "metadata": {
+      "condition": "Addison's disease",
+      "level": 3,
+      "recommendation": "Antiviral medication"
+    }
+  },
+  {
+    "id": "d7d6cc543b",
+    "text": "Symptoms: Hair loss and fatigue. History: Sedentary lifestyle. Diagnosis: Cushing's syndrome. Assign Level 5 (Non-Urgent). Recommendation: Alcohol detox.",
+    "metadata": {
+      "condition": "Cushing's syndrome",
+      "level": 5,
+      "recommendation": "Alcohol detox"
+    }
+  },
+  {
+    "id": "04df440df4",
+    "text": "Symptoms: Lyme disease bullseye rash. History: Insulin dependent. Diagnosis: renal failure. Assign Level 5 (Non-Urgent). Recommendation: Colonoscopy.",
+    "metadata": {
+      "condition": "renal failure",
+      "level": 5,
+      "recommendation": "Colonoscopy"
+    }
+  },
+  {
+    "id": "70780b6d27",
+    "text": "Symptoms: Swollen legs and shortness of breath. History: Eating disorder. Diagnosis: poisoning. Assign Level 1 (Resuscitation). Recommendation: IV fluids and electrolyte correction.",
+    "metadata": {
+      "condition": "poisoning",
+      "level": 1,
+      "recommendation": "IV fluids and electrolyte correction"
+    }
+  },
+  {
+    "id": "25383d0d58",
+    "text": "Symptoms: Insect sting allergy. History: Sedentary lifestyle. Diagnosis: ADHD. Assign Level 1 (Resuscitation). Recommendation: IV antibiotics and hospital admission.",
+    "metadata": {
+      "condition": "ADHD",
+      "level": 1,
+      "recommendation": "IV antibiotics and hospital admission"
+    }
+  },
+  {
+    "id": "f6ba069c10",
+    "text": "Symptoms: Itchy skin rash. History: Amputee. Diagnosis: cirrhosis. Assign Level 5 (Non-Urgent). Recommendation: Palliative care.",
+    "metadata": {
+      "condition": "cirrhosis",
+      "level": 5,
+      "recommendation": "Palliative care"
+    }
+  },
+  {
+    "id": "46ebaecc1b",
+    "text": "Symptoms: Hair loss and fatigue. History: Tuberculosis exposure. Diagnosis: dengue. Assign Level 3 (Urgent). Recommendation: Drug rehabilitation.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 3,
+      "recommendation": "Drug rehabilitation"
+    }
+  },
+  {
+    "id": "fadf655c84",
+    "text": "Symptoms: Snake bite with swelling. History: Burn survivor. Diagnosis: diabetic ketoacidosis. Assign Level 4 (Standard). Recommendation: Thrombolytics.",
+    "metadata": {
+      "condition": "diabetic ketoacidosis",
+      "level": 4,
+      "recommendation": "Thrombolytics"
+    }
+  },
+  {
+    "id": "477bf3572a",
+    "text": "Symptoms: Muscle weakness and cramps. History: Huntington's disease. Diagnosis: autism. Assign Level 1 (Resuscitation). Recommendation: Anxiolytics.",
+    "metadata": {
+      "condition": "autism",
+      "level": 1,
+      "recommendation": "Anxiolytics"
+    }
+  },
+  {
+    "id": "fe91d29469",
+    "text": "Symptoms: Mumps swollen cheeks. History: Epilepsy. Diagnosis: fractured femur. Assign Level 1 (Resuscitation). Recommendation: Smoking cessation.",
+    "metadata": {
+      "condition": "fractured femur",
+      "level": 1,
+      "recommendation": "Smoking cessation"
+    }
+  },
+  {
+    "id": "8fd1816355",
+    "text": "Symptoms: Insomnia and anxiety. History: Alzheimer's disease. Diagnosis: heat stroke. Assign Level 5 (Non-Urgent). Recommendation: IV nutrition.",
+    "metadata": {
+      "condition": "heat stroke",
+      "level": 5,
+      "recommendation": "IV nutrition"
+    }
+  },
+  {
+    "id": "771a07f153",
+    "text": "Symptoms: Persistent diarrhea. History: History of hypertension. Diagnosis: salmonella. Assign Level 2 (Emergency). Recommendation: Symptomatic treatment and rest.",
+    "metadata": {
+      "condition": "salmonella",
+      "level": 2,
+      "recommendation": "Symptomatic treatment and rest"
+    }
+  },
+  {
+    "id": "1445bdc9aa",
+    "text": "Symptoms: Heat exhaustion symptoms. History: Work-related stress. Diagnosis: sepsis. Assign Level 2 (Emergency). Recommendation: Antidepressants.",
+    "metadata": {
+      "condition": "sepsis",
+      "level": 2,
+      "recommendation": "Antidepressants"
+    }
+  },
+  {
+    "id": "fad453e51b",
+    "text": "Symptoms: Sprained ankle. History: Recent vaccination. Diagnosis: Alzheimer's. Assign Level 1 (Resuscitation). Recommendation: Proton pump inhibitors.",
+    "metadata": {
+      "condition": "Alzheimer's",
+      "level": 1,
+      "recommendation": "Proton pump inhibitors"
+    }
+  },
+  {
+    "id": "09158622df",
+    "text": "Symptoms: Leg cramps at night. History: Cystic fibrosis. Diagnosis: gout. Assign Level 3 (Urgent). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "gout",
+      "level": 3,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "aa86ca6c80",
+    "text": "Symptoms: Blurred vision and headache. History: High cholesterol. Diagnosis: depression. Assign Level 5 (Non-Urgent). Recommendation: Expectorants.",
+    "metadata": {
+      "condition": "depression",
+      "level": 5,
+      "recommendation": "Expectorants"
+    }
+  },
+  {
+    "id": "2847c76ecb",
+    "text": "Symptoms: Difficulty breathing at night. History: Anxiety disorder. Diagnosis: ADHD. Assign Level 1 (Resuscitation). Recommendation: Physical therapy.",
+    "metadata": {
+      "condition": "ADHD",
+      "level": 1,
+      "recommendation": "Physical therapy"
+    }
+  },
+  {
+    "id": "70ac55cdfe",
+    "text": "Symptoms: Shingles pain. History: Prison inmate. Diagnosis: mumps. Assign Level 2 (Emergency). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "mumps",
+      "level": 2,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "5060dec691",
+    "text": "Symptoms: Swollen glands in neck. History: War veteran with injuries. Diagnosis: cirrhosis. Assign Level 3 (Urgent). Recommendation: Rehabilitation program.",
+    "metadata": {
+      "condition": "cirrhosis",
+      "level": 3,
+      "recommendation": "Rehabilitation program"
+    }
+  },
+  {
+    "id": "a9ce40d824",
+    "text": "Symptoms: Blood in urine. History: High cholesterol. Diagnosis: spider bite. Assign Level 1 (Resuscitation). Recommendation: Rehabilitation program.",
+    "metadata": {
+      "condition": "spider bite",
+      "level": 1,
+      "recommendation": "Rehabilitation program"
+    }
+  },
+  {
+    "id": "85888a38cc",
+    "text": "Symptoms: Joint pain and swelling. History: Sickle cell anemia. Diagnosis: botulism. Assign Level 4 (Standard). Recommendation: Apply splint and schedule orthopedic consult.",
+    "metadata": {
+      "condition": "botulism",
+      "level": 4,
+      "recommendation": "Apply splint and schedule orthopedic consult"
+    }
+  },
+  {
+    "id": "c4cc52b133",
+    "text": "Symptoms: Muscle weakness and cramps. History: Spinal cord injury. Diagnosis: gout. Assign Level 4 (Standard). Recommendation: Nutritional support.",
+    "metadata": {
+      "condition": "gout",
+      "level": 4,
+      "recommendation": "Nutritional support"
+    }
+  },
+  {
+    "id": "dcb2ef03fe",
+    "text": "Symptoms: Ear pain with discharge. History: Newborn infant. Diagnosis: electrocution. Assign Level 3 (Urgent). Recommendation: Antiparasitic drugs.",
+    "metadata": {
+      "condition": "electrocution",
+      "level": 3,
+      "recommendation": "Antiparasitic drugs"
+    }
+  },
+  {
+    "id": "81b11e828f",
+    "text": "Symptoms: Unconscious after drug overdose. History: History of depression. Diagnosis: fractured rib. Assign Level 3 (Urgent). Recommendation: CPR.",
+    "metadata": {
+      "condition": "fractured rib",
+      "level": 3,
+      "recommendation": "CPR"
+    }
+  },
+  {
+    "id": "2865c5bc34",
+    "text": "Symptoms: Ear pain with discharge. History: Chronic kidney disease. Diagnosis: pyelonephritis. Assign Level 5 (Non-Urgent). Recommendation: Sutures.",
+    "metadata": {
+      "condition": "pyelonephritis",
+      "level": 5,
+      "recommendation": "Sutures"
+    }
+  },
+  {
+    "id": "eec6b38e24",
+    "text": "Symptoms: Tetanus muscle spasms. History: Immunocompromised due to chemotherapy. Diagnosis: ADHD. Assign Level 5 (Non-Urgent). Recommendation: Sutures.",
+    "metadata": {
+      "condition": "ADHD",
+      "level": 5,
+      "recommendation": "Sutures"
+    }
+  },
+  {
+    "id": "8b2f5a9d96",
+    "text": "Symptoms: Toothache with swelling. History: High cholesterol. Diagnosis: chickenpox. Assign Level 3 (Urgent). Recommendation: Antifungal treatment.",
+    "metadata": {
+      "condition": "chickenpox",
+      "level": 3,
+      "recommendation": "Antifungal treatment"
+    }
+  },
+  {
+    "id": "c30897aa57",
+    "text": "Symptoms: Red eyes and sensitivity to light. History: Family history of cancer. Diagnosis: drug overdose. Assign Level 1 (Resuscitation). Recommendation: Endoscopy.",
+    "metadata": {
+      "condition": "drug overdose",
+      "level": 1,
+      "recommendation": "Endoscopy"
+    }
+  },
+  {
+    "id": "07efc3d2c4",
+    "text": "Symptoms: Extreme fatigue and pale skin. History: Homeless individual. Diagnosis: E. coli infection. Assign Level 2 (Emergency). Recommendation: Pacemaker check.",
+    "metadata": {
+      "condition": "E. coli infection",
+      "level": 2,
+      "recommendation": "Pacemaker check"
+    }
+  },
+  {
+    "id": "6246876f8d",
+    "text": "Symptoms: Dry mouth and excessive thirst. History: Insulin dependent. Diagnosis: lung cancer. Assign Level 2 (Emergency). Recommendation: Anticoagulants.",
+    "metadata": {
+      "condition": "lung cancer",
+      "level": 2,
+      "recommendation": "Anticoagulants"
+    }
+  },
+  {
+    "id": "29e423b67a",
+    "text": "Symptoms: Severe allergic reaction. History: Thyroid disorder. Diagnosis: PTSD. Assign Level 2 (Emergency). Recommendation: Nutritional support.",
+    "metadata": {
+      "condition": "PTSD",
+      "level": 2,
+      "recommendation": "Nutritional support"
+    }
+  },
+  {
+    "id": "eeddde8fb1",
+    "text": "Symptoms: Eye pain with sudden vision loss. History: Malnourished. Diagnosis: zika. Assign Level 1 (Resuscitation). Recommendation: Immediate ECG and cardiac monitoring.",
+    "metadata": {
+      "condition": "zika",
+      "level": 1,
+      "recommendation": "Immediate ECG and cardiac monitoring"
+    }
+  },
+  {
+    "id": "e422127f74",
+    "text": "Symptoms: Severe lower abdominal pain in pregnancy. History: History of stroke. Diagnosis: zika. Assign Level 4 (Standard). Recommendation: Antiemetics.",
+    "metadata": {
+      "condition": "zika",
+      "level": 4,
+      "recommendation": "Antiemetics"
+    }
+  },
+  {
+    "id": "e4cd1836b0",
+    "text": "Symptoms: Malaria fever cycles. History: History of migraines. Diagnosis: drug overdose. Assign Level 2 (Emergency). Recommendation: Administer IV insulin.",
+    "metadata": {
+      "condition": "drug overdose",
+      "level": 2,
+      "recommendation": "Administer IV insulin"
+    }
+  },
+  {
+    "id": "7f664bdcaa",
+    "text": "Symptoms: Painful urination and fever. History: Obese, BMI over 30. Diagnosis: autism. Assign Level 2 (Emergency). Recommendation: Ultrasound.",
+    "metadata": {
+      "condition": "autism",
+      "level": 2,
+      "recommendation": "Ultrasound"
+    }
+  },
+  {
+    "id": "c03e5d016d",
+    "text": "Symptoms: Insomnia and anxiety. History: Gluten sensitivity. Diagnosis: OCD. Assign Level 3 (Urgent). Recommendation: Antifungal treatment.",
+    "metadata": {
+      "condition": "OCD",
+      "level": 3,
+      "recommendation": "Antifungal treatment"
+    }
+  },
+  {
+    "id": "75e01cee5b",
+    "text": "Symptoms: Pain in the jaw when chewing. History: History of heart disease. Diagnosis: hepatitis C. Assign Level 1 (Resuscitation). Recommendation: Antibiotics course.",
+    "metadata": {
+      "condition": "hepatitis C",
+      "level": 1,
+      "recommendation": "Antibiotics course"
+    }
+  },
+  {
+    "id": "ad9fe98084",
+    "text": "Symptoms: High fever and stiff neck. History: Alcohol dependency. Diagnosis: acne. Assign Level 4 (Standard). Recommendation: Stimulants.",
+    "metadata": {
+      "condition": "acne",
+      "level": 4,
+      "recommendation": "Stimulants"
+    }
+  },
+  {
+    "id": "a678f87441",
+    "text": "Symptoms: Chronic coughing and weight loss. History: HIV positive. Diagnosis: glaucoma. Assign Level 2 (Emergency). Recommendation: Chest tube insertion.",
+    "metadata": {
+      "condition": "glaucoma",
+      "level": 2,
+      "recommendation": "Chest tube insertion"
+    }
+  },
+  {
+    "id": "12771631f7",
+    "text": "Symptoms: Memory loss and confusion. History: Multiple sclerosis. Diagnosis: torn muscle. Assign Level 3 (Urgent). Recommendation: Immunosuppressants.",
+    "metadata": {
+      "condition": "torn muscle",
+      "level": 3,
+      "recommendation": "Immunosuppressants"
+    }
+  },
+  {
+    "id": "8f9d5c0d62",
+    "text": "Symptoms: Difficulty swallowing and drooling. History: Refugee with trauma. Diagnosis: lupus. Assign Level 2 (Emergency). Recommendation: Occupational therapy.",
+    "metadata": {
+      "condition": "lupus",
+      "level": 2,
+      "recommendation": "Occupational therapy"
+    }
+  },
+  {
+    "id": "907c35c324",
+    "text": "Symptoms: Cluster headache. History: Sickle cell anemia. Diagnosis: lupus. Assign Level 2 (Emergency). Recommendation: Psychiatric evaluation and monitoring.",
+    "metadata": {
+      "condition": "lupus",
+      "level": 2,
+      "recommendation": "Psychiatric evaluation and monitoring"
+    }
+  },
+  {
+    "id": "00bbf14ef3",
+    "text": "Symptoms: Burn from hot water. History: No relevant past history. Diagnosis: renal failure. Assign Level 4 (Standard). Recommendation: Steroids.",
+    "metadata": {
+      "condition": "renal failure",
+      "level": 4,
+      "recommendation": "Steroids"
+    }
+  },
+  {
+    "id": "3ef66284ff",
+    "text": "Symptoms: Whooping cough. History: Burn survivor. Diagnosis: whooping cough. Assign Level 1 (Resuscitation). Recommendation: Stimulants.",
+    "metadata": {
+      "condition": "whooping cough",
+      "level": 1,
+      "recommendation": "Stimulants"
+    }
+  },
+  {
+    "id": "50a0cc199e",
+    "text": "Symptoms: Ebola hemorrhagic fever. History: PTSD. Diagnosis: leukemia. Assign Level 4 (Standard). Recommendation: Surgical evaluation and preparation.",
+    "metadata": {
+      "condition": "leukemia",
+      "level": 4,
+      "recommendation": "Surgical evaluation and preparation"
+    }
+  },
+  {
+    "id": "9ce2035e3c",
+    "text": "Symptoms: Ebola hemorrhagic fever. History: Anxiety disorder. Diagnosis: sepsis. Assign Level 3 (Urgent). Recommendation: Speech therapy.",
+    "metadata": {
+      "condition": "sepsis",
+      "level": 3,
+      "recommendation": "Speech therapy"
+    }
+  },
+  {
+    "id": "de4d1c4b2b",
+    "text": "Symptoms: Heat exhaustion symptoms. History: Wheelchair bound. Diagnosis: tetanus. Assign Level 1 (Resuscitation). Recommendation: Dialysis.",
+    "metadata": {
+      "condition": "tetanus",
+      "level": 1,
+      "recommendation": "Dialysis"
+    }
+  },
+  {
+    "id": "dabb9f1c21",
+    "text": "Symptoms: Snake bite with swelling. History: Lactose intolerant. Diagnosis: renal failure. Assign Level 1 (Resuscitation). Recommendation: Lifestyle counseling.",
+    "metadata": {
+      "condition": "renal failure",
+      "level": 1,
+      "recommendation": "Lifestyle counseling"
+    }
+  },
+  {
+    "id": "91927aab88",
+    "text": "Symptoms: Loss of appetite and abdominal distension. History: Epilepsy. Diagnosis: ectopic pregnancy. Assign Level 2 (Emergency). Recommendation: MRI scan.",
+    "metadata": {
+      "condition": "ectopic pregnancy",
+      "level": 2,
+      "recommendation": "MRI scan"
+    }
+  },
+  {
+    "id": "c889ac9a79",
+    "text": "Symptoms: Sudden severe back pain. History: Hemophilia. Diagnosis: gastritis. Assign Level 3 (Urgent). Recommendation: Antidepressants.",
+    "metadata": {
+      "condition": "gastritis",
+      "level": 3,
+      "recommendation": "Antidepressants"
+    }
+  },
+  {
+    "id": "e0a9f5f65b",
+    "text": "Symptoms: Burn from hot water. History: Recent COVID-19 infection. Diagnosis: sepsis. Assign Level 4 (Standard). Recommendation: Sedatives.",
+    "metadata": {
+      "condition": "sepsis",
+      "level": 4,
+      "recommendation": "Sedatives"
+    }
+  },
+  {
+    "id": "b178b1dfdf",
+    "text": "Symptoms: Tetanus muscle spasms. History: History of depression. Diagnosis: ectopic pregnancy. Assign Level 1 (Resuscitation). Recommendation: Decongestants.",
+    "metadata": {
+      "condition": "ectopic pregnancy",
+      "level": 1,
+      "recommendation": "Decongestants"
+    }
+  },
+  {
+    "id": "e5b8e07bb2",
+    "text": "Symptoms: Migraine with aura. History: COPD patient. Diagnosis: acute myocardial infarction. Assign Level 1 (Resuscitation). Recommendation: Lifestyle counseling.",
+    "metadata": {
+      "condition": "acute myocardial infarction",
+      "level": 1,
+      "recommendation": "Lifestyle counseling"
+    }
+  },
+  {
+    "id": "565a333254",
+    "text": "Symptoms: Chronic coughing and weight loss. History: Post-surgical complication. Diagnosis: severe asthma attack. Assign Level 4 (Standard). Recommendation: MRI scan.",
+    "metadata": {
+      "condition": "severe asthma attack",
+      "level": 4,
+      "recommendation": "MRI scan"
+    }
+  },
+  {
+    "id": "6c5c6419ec",
+    "text": "Symptoms: Zika virus joint pain. History: Pacemaker implanted. Diagnosis: spider bite. Assign Level 3 (Urgent). Recommendation: Antifungal treatment.",
+    "metadata": {
+      "condition": "spider bite",
+      "level": 3,
+      "recommendation": "Antifungal treatment"
+    }
+  },
+  {
+    "id": "f6c3b8fcef",
+    "text": "Symptoms: Stomach ulcer pain. History: Elderly, 75 years old. Diagnosis: schizophrenia. Assign Level 1 (Resuscitation). Recommendation: Bone marrow aspiration.",
+    "metadata": {
+      "condition": "schizophrenia",
+      "level": 1,
+      "recommendation": "Bone marrow aspiration"
+    }
+  },
+  {
+    "id": "6667d9b56b",
+    "text": "Symptoms: COVID-19 symptoms. History: Post-surgical complication. Diagnosis: ectopic pregnancy. Assign Level 3 (Urgent). Recommendation: Antiparasitic drugs.",
+    "metadata": {
+      "condition": "ectopic pregnancy",
+      "level": 3,
+      "recommendation": "Antiparasitic drugs"
+    }
+  },
+  {
+    "id": "1424c7550c",
+    "text": "Symptoms: Extreme fatigue and pale skin. History: Epilepsy. Diagnosis: hepatitis B. Assign Level 3 (Urgent). Recommendation: Physical therapy.",
+    "metadata": {
+      "condition": "hepatitis B",
+      "level": 3,
+      "recommendation": "Physical therapy"
+    }
+  },
+  {
+    "id": "1181026763",
+    "text": "Symptoms: Painful blisters on skin. History: Obese, BMI over 30. Diagnosis: hypothermia. Assign Level 4 (Standard). Recommendation: Hospice referral.",
+    "metadata": {
+      "condition": "hypothermia",
+      "level": 4,
+      "recommendation": "Hospice referral"
+    }
+  },
+  {
+    "id": "6c06e8aa2d",
+    "text": "Symptoms: Insect sting allergy. History: Athlete with recent injury. Diagnosis: rabies. Assign Level 4 (Standard). Recommendation: Radiation therapy.",
+    "metadata": {
+      "condition": "rabies",
+      "level": 4,
+      "recommendation": "Radiation therapy"
+    }
+  },
+  {
+    "id": "435628621f",
+    "text": "Symptoms: Loss of appetite and abdominal distension. History: ALS. Diagnosis: tuberculosis. Assign Level 2 (Emergency). Recommendation: Follow-up appointment.",
+    "metadata": {
+      "condition": "tuberculosis",
+      "level": 2,
+      "recommendation": "Follow-up appointment"
+    }
+  },
+  {
+    "id": "65f8ece717",
+    "text": "Symptoms: Blue lips and difficulty breathing. History: History of hypertension. Diagnosis: eczema. Assign Level 3 (Urgent). Recommendation: Wound dressing.",
+    "metadata": {
+      "condition": "eczema",
+      "level": 3,
+      "recommendation": "Wound dressing"
+    }
+  },
+  {
+    "id": "91bd6705bf",
+    "text": "Symptoms: Shingles pain. History: Athlete with recent injury. Diagnosis: dengue. Assign Level 5 (Non-Urgent). Recommendation: Administer IV insulin.",
+    "metadata": {
+      "condition": "dengue",
+      "level": 5,
+      "recommendation": "Administer IV insulin"
+    }
+  },
+  {
+    "id": "2f1ec866e5",
+    "text": "Symptoms: Shingles pain. History: Osteoporosis. Diagnosis: pyelonephritis. Assign Level 5 (Non-Urgent). Recommendation: Dialysis.",
+    "metadata": {
+      "condition": "pyelonephritis",
+      "level": 5,
+      "recommendation": "Dialysis"
+    }
+  },
+  {
+    "id": "2bfec2374b",
+    "text": "Symptoms: Mild sore throat and runny nose. History: Occupational exposure to chemicals. Diagnosis: HIV/AIDS. Assign Level 1 (Resuscitation). Recommendation: Colonoscopy.",
+    "metadata": {
+      "condition": "HIV/AIDS",
+      "level": 1,
+      "recommendation": "Colonoscopy"
+    }
+  },
+  {
+    "id": "e984b37d27",
+    "text": "Symptoms: High fever and stiff neck. History: Down syndrome. Diagnosis: snake bite. Assign Level 3 (Urgent). Recommendation: Drug rehabilitation.",
+    "metadata": {
+      "condition": "snake bite",
+      "level": 3,
+      "recommendation": "Drug rehabilitation"
+    }
+  }
+]
+

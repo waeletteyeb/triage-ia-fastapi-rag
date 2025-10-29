@@ -1,0 +1,534 @@
+{
+  "name": "Healthcare Operations Workflow - Fixed",
+  "nodes": [
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are an AI Agent embedded inside an n8n workflow for healthcare operations.\nYour role is to assist healthcare staff with operational tasks AFTER the triage assistant produces its structured JSON.\n\n🎯 Goal:\n- Receive triage JSON from the AI Triage Assistant via webhook\n- Understand nurse instructions in plain text (e.g., \"book a doctor appointment\", \"send email to patient\")\n- Reason on both the nurse's instruction and the triage JSON context\n- Perform operational actions\n\n📌 Processing Logic:\nAnalyze the incoming data structure:\n1. If webhook contains triage JSON: Extract patient info, triage level, recommendations\n2. If nurse instruction provided: Parse the requested action\n3. Combine both contexts to determine appropriate response\n\n🔧 Available Actions:\n1. Booking doctor appointments (via Google Calendar)\n2. Composing and sending professional emails to patients (via Gmail)\n3. Both actions when nurse says \"book appointment\" (includes confirmation email)\n\n📧 Email Content Requirements:\n- Patient's name from triage JSON\n- Current triage level and explanation\n- Recommendations from triage JSON\n- Appointment details if booking was made\n- Professional, concise, and reassuring tone\n\n📅 Appointment Booking Instructions:\n1. First check doctor availability using check_doctor_availability\n2. Find suitable time slots based on triage urgency:\n   - HIGH: Within 24 hours\n   - MEDIUM: Within 48-72 hours\n   - LOW: Within 1 week\n3. Book appointment with these parameters:\n   - appointment_title: \"Medical Consultation - [Patient Name]\"\n   - appointment_start: ISO datetime (e.g., \"2025-08-30T09:00:00\")\n   - appointment_end: ISO datetime (1 hour after start)\n   - appointment_description: Include triage level and main symptoms\n   - patient_email: From triage JSON\n\n✅ Always return structured JSON response:\n{\n  \"action\": \"booking | email | both\",\n  \"email_subject\": \"...\",\n  \"email_body\": \"...\",\n  \"appointment\": {\n    \"status\": \"booked | not_booked | failed\",\n    \"datetime\": \"...\",\n    \"location\": \"Healthcare Clinic\"\n  }\n}",
+        "options": {
+          "systemMessage": "=You are a Healthcare Operations AI Agent designed to process triage data and nurse instructions.\n\n🎯 Your Mission:\nReceive triage JSON and nurse instructions, then execute operational tasks like appointment booking and patient communication.\n\n🔥 Input Processing:\n- Parse triage JSON containing: patient info, triage level, symptoms, recommendations\n- Understand nurse instructions: \"book appointment\", \"send email\", or combined requests\n- Cross-reference both data sources for context-aware responses\n\n🔧 Core Functions:\n1. **Appointment Booking**: Use Google Calendar integration with patient details from triage JSON\n2. **Patient Email**: Compose professional emails using Gmail with triage context\n3. **Combined Operations**: Handle both booking and email when nurse requests appointment\n\n📧 Email Template Structure:\n- Subject: Based on triage level and action taken\n- Body includes: Patient name, triage assessment, recommendations, appointment details (if applicable)\n- Tone: Professional, reassuring, clear next steps\n\n📅 Calendar Booking Process:\n1. Check availability first using check_doctor_availability tool\n2. Schedule based on triage urgency (HIGH: 24hrs, MEDIUM: 48-72hrs, LOW: 1 week)\n3. Book using book_doctor_appointment tool with proper parameters\n\n🔤 Output Requirements:\nAlways respond with structured JSON containing action type, email content, and appointment status.\n\nConsider current year as 2025 for all date/time calculations.\n\nUse patient.email field from triage JSON for email recipient.\nUse patient.name field for personalization.\nReference triage.level and triage.recommendations for medical context."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.9,
+      "position": [
+        -352,
+        192
+      ],
+      "id": "c893d2d6-1c98-4280-973a-d7ac57dfb92d",
+      "name": "Healthcare Operations AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0.3
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        -432,
+        0
+      ],
+      "id": "7f326b65-33f0-4e0b-b5ba-d5d9956673eb",
+      "name": "Groq Chat Model",
+      "credentials": {
+        "groqApi": {
+          "id": "2n6wLkyldCAnjhcn",
+          "name": "Groq account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Book doctor appointment in Google Calendar using patient details from triage JSON. Requires: appointment_title, appointment_start (ISO datetime), appointment_end (ISO datetime), appointment_description, patient_email",
+        "calendar": {
+          "__rl": true,
+          "value": "healthcare.clinic@gmail.com",
+          "mode": "list",
+          "cachedResultName": "healthcare.clinic@gmail.com"
+        },
+        "start": "={{ $fromAI('appointment_start', new Date(Date.now() + 24*60*60*1000).toISOString().slice(0,16), 'string') }}",
+        "end": "={{ $fromAI('appointment_end', new Date(Date.now() + 25*60*60*1000).toISOString().slice(0,16), 'string') }}",
+        "additionalFields": {
+          "attendees": [
+            "={{ $fromAI('patient_email', '', 'string') }}"
+          ],
+          "color": "2",
+          "description": "={{ $fromAI('appointment_description', 'Healthcare appointment based on triage assessment', 'string') }}",
+          "sendUpdates": "all",
+          "summary": "={{ $fromAI('appointment_title', 'Medical Consultation', 'string') }}"
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        -336,
+        592
+      ],
+      "id": "db25291b-0897-427d-bb0f-7cc176ecefc6",
+      "name": "book_doctor_appointment",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "3KxJiRSWcRD661Vp",
+          "name": "Google Calendar account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Check doctor availability in Google Calendar for a specific time range. Requires: availability_start (ISO datetime), availability_end (ISO datetime)",
+        "resource": "calendar",
+        "calendar": {
+          "__rl": true,
+          "value": "healthcare.clinic@gmail.com",
+          "mode": "list",
+          "cachedResultName": "healthcare.clinic@gmail.com"
+        },
+        "timeMin": "={{ $fromAI('availability_start', new Date().toISOString(), 'string') }}",
+        "timeMax": "={{ $fromAI('availability_end', new Date(Date.now() + 7*24*60*60*1000).toISOString(), 'string') }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        -560,
+        592
+      ],
+      "id": "c681f89a-667b-42b2-abf9-5a231d5f6d60",
+      "name": "check_doctor_availability",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "3KxJiRSWcRD661Vp",
+          "name": "Google Calendar account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -784,
+        192
+      ],
+      "id": "8ff3b141-89e4-4d8e-9ec4-93000c44ea20",
+      "name": "Triage Data Webhook",
+      "webhookId": "triage-operations-webhook"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "extract_triage_data",
+              "name": "triage_json",
+              "value": "={{ $json.body.triage || $json.body }}",
+              "type": "object"
+            },
+            {
+              "id": "extract_nurse_instruction",
+              "name": "nurse_instruction",
+              "value": "={{ $json.body.instruction || $json.query.instruction || 'process triage data' }}",
+              "type": "string"
+            },
+            {
+              "id": "extract_patient_email",
+              "name": "patient_email",
+              "value": "={{ $json.body.triage.patient.email || $json.body.patient.email }}",
+              "type": "string"
+            },
+            {
+              "id": "extract_patient_name",
+              "name": "patient_name",
+              "value": "={{ $json.body.triage.patient.name || $json.body.patient.name }}",
+              "type": "string"
+            },
+            {
+              "id": "extract_triage_level",
+              "name": "triage_level",
+              "value": "={{ $json.body.triage.level || $json.body.level || 'MEDIUM' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -576,
+        192
+      ],
+      "id": "bc2a0f31-2029-4b49-9cdd-7fc074ae64fb",
+      "name": "Extract Triage & Instruction Data"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $json.patient_email || 'default-session' }}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        -80,
+        0
+      ],
+      "id": "b9e72726-8cf6-4ae5-8d49-084f3628f9d6",
+      "name": "Patient Context Memory",
+      "credentials": {
+        "postgres": {
+          "id": "7M83Il5kI4HtMIHo",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "check_email_action",
+              "leftValue": "={{ $json.action }}",
+              "rightValue": "email",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "check_both_action",
+              "leftValue": "={{ $json.action }}",
+              "rightValue": "both",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        16,
+        208
+      ],
+      "id": "d5236291-0608-496c-a165-823bb84cebdb",
+      "name": "Check if Email Required"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "check_booking_action",
+              "leftValue": "={{ $json.action }}",
+              "rightValue": "booking",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "check_both_action_booking",
+              "leftValue": "={{ $json.action }}",
+              "rightValue": "both",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        16,
+        400
+      ],
+      "id": "appointment_routing_node",
+      "name": "Check if Booking Required"
+    },
+    {
+      "parameters": {
+        "content": "## Healthcare Operations AI Agent\n### Processes triage JSON + nurse instructions\n### Handles appointment booking & patient emails",
+        "height": 780,
+        "width": 1260,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -864,
+        -32
+      ],
+      "typeVersion": 1,
+      "id": "6b34f6a3-c7d4-4dea-8589-273b43990e35",
+      "name": "Workflow Overview"
+    },
+    {
+      "parameters": {
+        "content": "## Appointment Booking\n### Google Calendar Integration\n### Now properly connected with availability checking",
+        "height": 200,
+        "width": 496,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -640,
+        512
+      ],
+      "typeVersion": 1,
+      "id": "844f1518-ba1f-4695-b661-3bab06b75bab",
+      "name": "Appointment Section"
+    },
+    {
+      "parameters": {
+        "content": "## Patient Email\n### Gmail Integration\n### Conditional routing based on action type",
+        "height": 200,
+        "width": 300,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -64,
+        496
+      ],
+      "typeVersion": 1,
+      "id": "a3be556c-357b-4b37-950a-586b8f343597",
+      "name": "Email Section"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "format_final_response",
+              "name": "operation_result",
+              "value": "={{ {\n  \"action\": $json.action || 'processed',\n  \"email_subject\": $json.email_subject || '',\n  \"email_body\": $json.email_body || '',\n  \"appointment\": {\n    \"status\": $json.appointment?.status || 'not_requested',\n    \"datetime\": $json.appointment?.datetime || '',\n    \"location\": $json.appointment?.location || 'Healthcare Clinic'\n  },\n  \"patient_notified\": true,\n  \"timestamp\": new Date().toISOString(),\n  \"patient_email\": $('Extract Triage & Instruction Data').item.json.patient_email,\n  \"patient_name\": $('Extract Triage & Instruction Data').item.json.patient_name,\n  \"triage_level\": $('Extract Triage & Instruction Data').item.json.triage_level\n} }}",
+              "type": "object"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        304,
+        192
+      ],
+      "id": "dedb35fa-38cd-4280-8382-c8900c8a481f",
+      "name": "Format Final Response"
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Send professional email to patient with triage results and appointment information. Requires: recipient_email, email_subject, email_body",
+        "options": {
+          "to": "={{ $fromAI('recipient_email', '', 'string') }}",
+          "subject": "={{ $fromAI('email_subject', 'Healthcare Update', 'string') }}",
+          "message": "={{ $fromAI('email_body', 'Thank you for contacting our healthcare clinic.', 'string') }}"
+        }
+      },
+      "type": "n8n-nodes-base.gmailTool",
+      "typeVersion": 2.1,
+      "position": [
+        96,
+        576
+      ],
+      "id": "8502d613-f217-40ce-af6f-b5848360159b",
+      "name": "send_patient_email",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "tuLYMGKG8DrkjAld",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Error handling for failed operations\nconst input = $input.all();\nconst errors = [];\nconst successes = [];\n\nfor (const item of input) {\n  if (item.json.error) {\n    errors.push({\n      error: item.json.error,\n      node: item.json.node || 'unknown',\n      timestamp: new Date().toISOString()\n    });\n  } else {\n    successes.push(item.json);\n  }\n}\n\nreturn [{\n  json: {\n    success_count: successes.length,\n    error_count: errors.length,\n    errors: errors,\n    last_success: successes[successes.length - 1] || null,\n    status: errors.length === 0 ? 'completed' : 'partial_failure'\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        512,
+        400
+      ],
+      "id": "error_handler_node",
+      "name": "Error Handler"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Triage Data Webhook": {
+      "main": [
+        [
+          {
+            "node": "Extract Triage & Instruction Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Healthcare Operations AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Check if Email Required",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Check if Booking Required",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "book_doctor_appointment": {
+      "ai_tool": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check_doctor_availability": {
+      "ai_tool": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Triage & Instruction Data": {
+      "main": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Patient Context Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check if Email Required": {
+      "main": [
+        [
+          {
+            "node": "Format Final Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Format Final Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check if Booking Required": {
+      "main": [
+        [
+          {
+            "node": "Format Final Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Format Final Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Final Response": {
+      "main": [
+        [
+          {
+            "node": "Error Handler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "send_patient_email": {
+      "ai_tool": [
+        [
+          {
+            "node": "Healthcare Operations AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d0af1916-e2c6-4f00-95b2-73a20a76df85",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "39ddd9166e79cc736a83de566bfa860d2b48948773396c27834440e0722ebe3d"
+  },
+  "id": "YxRCjhDtlU896h5B",
+  "tags": []
+}

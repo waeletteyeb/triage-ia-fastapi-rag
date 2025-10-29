@@ -1,0 +1,26 @@
+# Environnement
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Données temporaires
+*.sqlite3
+*.db
+*.log
+*.tmp
+*.ipynb_checkpoints/
+*.bin
+*.pickle
+
+# Systèmes
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+
+# Dossiers spécifiques
+chroma_db/
+Images de rapport et soutenances/Technozor Stage AI/

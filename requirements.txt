@@ -1,0 +1,13 @@
+streamlit
+requests
+matplotlib
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+chromadb
+sentence-transformers
+torch
+pdfplumber
+pytesseract
+pillow
